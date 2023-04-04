@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50A7F4129DC397D008ACDA0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A7F4029DC397D008ACDA0 /* WelcomeViewController.swift */; };
+		B50A7F4329DC3999008ACDA0 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A7F4229DC3999008ACDA0 /* IntroViewController.swift */; };
+		B50A7F4529DC39AC008ACDA0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A7F4429DC39AC008ACDA0 /* HomeViewController.swift */; };
+		B50F952529DC473D00B86BBB /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F952429DC473D00B86BBB /* TempViewController.swift */; };
+		B50F952729DC4C2500B86BBB /* TempResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F952629DC4C2500B86BBB /* TempResultViewController.swift */; };
 		B5E4D27D29DBE13500B33A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D27C29DBE13500B33A0E /* AppDelegate.swift */; };
 		B5E4D27F29DBE13500B33A0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D27E29DBE13500B33A0E /* SceneDelegate.swift */; };
-		B5E4D28129DBE13500B33A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D28029DBE13500B33A0E /* ViewController.swift */; };
+		B5E4D28129DBE13500B33A0E /* LengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D28029DBE13500B33A0E /* LengthViewController.swift */; };
 		B5E4D28429DBE13500B33A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E4D28229DBE13500B33A0E /* Main.storyboard */; };
 		B5E4D28629DBE13800B33A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E4D28529DBE13800B33A0E /* Assets.xcassets */; };
 		B5E4D28929DBE13800B33A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E4D28729DBE13800B33A0E /* LaunchScreen.storyboard */; };
+		B5E4D29229DBFF0C00B33A0E /* LengthResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D29129DBFF0C00B33A0E /* LengthResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50A7F4029DC397D008ACDA0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B50A7F4229DC3999008ACDA0 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		B50A7F4429DC39AC008ACDA0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B50F952429DC473D00B86BBB /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		B50F952629DC4C2500B86BBB /* TempResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempResultViewController.swift; sourceTree = "<group>"; };
 		B5E4D27929DBE13500B33A0E /* Ikai Unit Yantra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ikai Unit Yantra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E4D27C29DBE13500B33A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E4D27E29DBE13500B33A0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5E4D28029DBE13500B33A0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5E4D28029DBE13500B33A0E /* LengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthViewController.swift; sourceTree = "<group>"; };
 		B5E4D28329DBE13500B33A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5E4D28529DBE13800B33A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E4D28829DBE13800B33A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E4D28A29DBE13800B33A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E4D29129DBFF0C00B33A0E /* LengthResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,27 @@
 			children = (
 				B5E4D27C29DBE13500B33A0E /* AppDelegate.swift */,
 				B5E4D27E29DBE13500B33A0E /* SceneDelegate.swift */,
-				B5E4D28029DBE13500B33A0E /* ViewController.swift */,
+				B5E4D29029DBFECC00B33A0E /* ViewControllers */,
 				B5E4D28229DBE13500B33A0E /* Main.storyboard */,
 				B5E4D28529DBE13800B33A0E /* Assets.xcassets */,
 				B5E4D28729DBE13800B33A0E /* LaunchScreen.storyboard */,
 				B5E4D28A29DBE13800B33A0E /* Info.plist */,
 			);
 			path = "Ikai Unit Yantra";
+			sourceTree = "<group>";
+		};
+		B5E4D29029DBFECC00B33A0E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5E4D28029DBE13500B33A0E /* LengthViewController.swift */,
+				B5E4D29129DBFF0C00B33A0E /* LengthResultViewController.swift */,
+				B50A7F4029DC397D008ACDA0 /* WelcomeViewController.swift */,
+				B50A7F4229DC3999008ACDA0 /* IntroViewController.swift */,
+				B50A7F4429DC39AC008ACDA0 /* HomeViewController.swift */,
+				B50F952429DC473D00B86BBB /* TempViewController.swift */,
+				B50F952629DC4C2500B86BBB /* TempResultViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E4D28129DBE13500B33A0E /* ViewController.swift in Sources */,
+				B50F952529DC473D00B86BBB /* TempViewController.swift in Sources */,
+				B5E4D28129DBE13500B33A0E /* LengthViewController.swift in Sources */,
+				B50A7F4129DC397D008ACDA0 /* WelcomeViewController.swift in Sources */,
 				B5E4D27D29DBE13500B33A0E /* AppDelegate.swift in Sources */,
+				B50F952729DC4C2500B86BBB /* TempResultViewController.swift in Sources */,
+				B50A7F4329DC3999008ACDA0 /* IntroViewController.swift in Sources */,
+				B5E4D29229DBFF0C00B33A0E /* LengthResultViewController.swift in Sources */,
+				B50A7F4529DC39AC008ACDA0 /* HomeViewController.swift in Sources */,
 				B5E4D27F29DBE13500B33A0E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +324,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +334,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dk.Ikai-Unit-Yantra";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,8 +355,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dk.Ikai-Unit-Yantra";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
